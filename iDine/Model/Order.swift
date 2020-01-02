@@ -9,7 +9,7 @@
 import SwiftUI
 
 class Order: ObservableObject {
-//See also contentView creation in the SceneDelegate which connects through to the above ObservableObject protocol and the use of @Published below:
+//See also contentView creation in the SceneDelegate which connects through to the above ObservableObject protocol and the use of the  @Published keyword below:
     
     @Published var items = [MenuItem]()
 
